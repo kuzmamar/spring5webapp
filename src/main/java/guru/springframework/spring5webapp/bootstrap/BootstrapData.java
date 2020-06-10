@@ -44,7 +44,7 @@ public class BootstrapData implements CommandLineRunner {
         authorRepository.save(kwik);
         bookRepository.save(limitless);
 
-        Publisher publisher = new Publisher("Albatros", "Address, city, state, zip");
+        Publisher publisher = new Publisher("Albatros", "Address", "city", "state", "zip");
 
         publisherRepository.save(publisher);
 
